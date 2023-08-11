@@ -1,0 +1,3 @@
+amrcounts	amr_counts_merged.csv
+readcounts	read_counts.csv
+metadata	samples_metagen_metadata.csv
