@@ -1,2 +1,2 @@
-Prefix pipelines/AMR/
+Prefix plugins/ABRUnmelt/example/
 Plugin ABRUnmelt inputfile parameters.abrunmelt.txt outputfile amr

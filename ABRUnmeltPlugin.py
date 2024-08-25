@@ -39,7 +39,7 @@ class ABRUnmeltPlugin:
       df_unmelted = df_unmelted.reset_index()
 
       # Add samples with zero profile
-      metadata_df = pd.read_csv('samples_metagen_metadata.csv')
+      metadata_df = pd.read_csv(PyPluMA.prefix()+"/"+'samples_metagen_metadata.csv')
       metadata_df = metadata_df[['Samples#', 'Group']]
       df_unmelted = metadata_df.merge(df_unmelted, how='left')
       df_unmelted = df_unmelted.fillna(0)
